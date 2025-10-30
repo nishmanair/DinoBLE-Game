@@ -1,0 +1,27 @@
+name: terx_dino
+description: "Flutter Dino Game"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.1"
+
+
+dependencies:
+  collection: ^1.16.0
+  flame: ^1.26.0
+  flutter:
+    sdk: flutter
+  flutter_reactive_ble: ^5.2.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flame_lint: ^1.2.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
